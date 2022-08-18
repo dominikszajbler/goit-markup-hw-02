@@ -3,8 +3,9 @@ height: 600px;
     width: 1600px;
     left: 0px;
     top: 80px;
-    border-radius: 0px;}
-    .welcome {position: absolute;
+    border-radius: 0px;
+}
+.welcome {position: absolute;
         width: 696px;
         height: 120px;
         left: 452px;
@@ -21,4 +22,5 @@ height: 600px;
         letter-spacing: 0.06em;
         text-transform: uppercase;
     
-        color: #FFFFFF;}
+        color: #FFFFFF;
+}

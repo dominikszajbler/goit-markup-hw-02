@@ -17,6 +17,9 @@
 .link:hover, .link:focus {
     color: #dda0dd;   
 }
+.homelink {
+    color:rgba(33, 150, 243, 1);
+}
 .link-general {
     text-decoration: none;
     font-family: 'Raleway', sans-serif;

@@ -23,6 +23,12 @@
 .link-general:visited {
     color: transparent;
 }
+.link-general:hover
+.link-general:focus {
+    color: 
+}
+
+
 .studio {
     color: #F5F4FA
 }

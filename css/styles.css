@@ -66,12 +66,19 @@
     height: 50px;
     left: 700px;
     top: 430px;
-background-color:rgba(33, 150, 243, 1);
-color: rgba(255, 255, 255, 1);}
+    background-color:rgba(33, 150, 243, 1);
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: none;
+}
 
-.filter-buttons > .button {
+.filter-buttons .button {
+    border: none;
     background: #F5F4FA;
-    border-radius: 4px;}
+    border-radius: 4px;
+    
+}
     
 .filter-buttons .button:active,
 .filter-buttons .button:focus

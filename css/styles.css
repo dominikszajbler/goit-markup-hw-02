@@ -7,26 +7,34 @@
     
         background: #FFFFFF;
 } */
-
+.body {
+    font-family: 'Roboto', sans-serif;
+    color:rgba(33, 33, 33, 1);
+}
 .link {
     text-decoration: none;
-    font-family: 'Roboto', sans-serif;
+    
 }
 .link-general {
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
-    font-weight: 700;  
+    font-weight: 700;
 }
 .link-general:visited {
     color: transparent;
 }
+.studio {
+    color: #F5F4FA
+}
 .logo {color:rgba(33, 150, 243, 1)}
-.contact-links {
-    font-family: 'Roboto', sans-serif;
-    }
-.address {font-style: normal;}
+
+/* eliminuje kursywe w adresie */
+    .address {
+    font-style: normal;
+}
+
 .home-buttonfield {background-color: rgba(47, 48, 58, 1);
-height: 600px;
+    height: 600px;
     width: 1600px;
     left: 0px;
     top: 80px;
@@ -37,8 +45,6 @@ height: 600px;
         height: 120px;
         left: 452px;
         top: 280px;
-    
-        font-family: 'Roboto', sans-serif;
         font-style: normal;
         font-weight: 900;
         font-size: 44px;
@@ -72,6 +78,15 @@ color: rgba(255, 255, 255, 1);}
     border-radius: 4px;
 }
 .footer {
-     color:#F5F4FA;
+    color:#F5F4FA;
+    /* position: absolute; */
+    width: 1600px;
+    height: 252px;
+    left: 0px;
+    top: 2097px;
 
+    background: #2F303A;
+}
+.contact-links .link {
+   color:rgba(255, 255, 255, 0.6);
 }

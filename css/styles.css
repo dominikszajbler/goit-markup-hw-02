@@ -32,10 +32,6 @@
 .link-general:visited {
     color: transparent;
 }
-
-
-
-
 /* eliminuje kursywe w adresie */
     .address {
     font-style: normal;

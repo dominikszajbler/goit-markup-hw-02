@@ -13,26 +13,28 @@
 }
 .link {
     text-decoration: none;
-    
+}
+.link:hover, .link:focus {
+    color: #dda0dd;   
 }
 .link-general {
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
 }
-.link-general:visited {
-    color: transparent;
-}
-.link-general:hover
-.link-general:focus {
-    color: 
-}
-
-
 .studio {
     color: #F5F4FA
 }
-.logo {color:rgba(33, 150, 243, 1)}
+.logo {
+    color: rgba(33, 150, 243, 1)
+}
+
+.link-general:visited {
+    color: transparent;
+}
+
+
+
 
 /* eliminuje kursywe w adresie */
     .address {
@@ -95,4 +97,8 @@ color: rgba(255, 255, 255, 1);}
 }
 .contact-links .link {
    color:rgba(255, 255, 255, 0.6);
+}
+.contact-links .link:hover,
+.contact-links .link:focus {
+    color: #dda0dd;
 }
